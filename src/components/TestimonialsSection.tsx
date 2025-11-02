@@ -3,47 +3,41 @@ import { Star, Quote } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Priya Sharma",
-      location: "Charkhi Dadri",
-      rating: 5,
-      text: "Rajesh sir has been managing my investments for over 3 years. His honest advice and market insights have helped me achieve my financial goals. The SMC PI portfolio has given consistent returns.",
-      investment: "₹8 Lacs Portfolio"
-    },
-    {
       name: "Amit Kumar",
       location: "Rohtak",
-      rating: 5,
-      text: "Perfect Investment Hub lives up to its name. The transparency in all dealings and regular updates make me confident about my investments. Highly recommend for long-term wealth creation.",
-      investment: "₹12 Lacs Portfolio"
-    },
-    {
-      name: "Sunita Devi",
-      location: "Bhiwani",
-      rating: 5,
-      text: "As a first-time investor, I was nervous about the stock market. Rajesh ji explained everything clearly and guided me step by step. My SIP investments are performing excellently.",
-      investment: "₹25,000 Monthly SIP"
+      text: "I’ve been investing through Perfect Investment Hub for a few years now. Clear guidance and timely communication make it easy to stay confident with every decision. The portfolio has shown consistent growth over time.",
+      investment: "₹12 Lacs Portfolio",
     },
     {
       name: "Vikash Yadav",
       location: "Tosham",
-      rating: 5,
-      text: "The SMC trading platform recommended by Rajesh sir is excellent. Fast execution, good brokerage rates, and his expert guidance have made my trading journey profitable.",
-      investment: "Active Trader"
+      text: "Trading has become more structured since I started following Rajesh’s advice. The SMC platform works seamlessly, and his market updates really help in managing short-term positions.",
+      investment: "Active Trader",
     },
     {
       name: "Rakesh Goel",
       location: "Loharu",
-      rating: 5,
-      text: "I've been a client for 5+ years. The demat account opening was hassle-free, and the ongoing support is exceptional. Regular portfolio reviews help me stay on track.",
-      investment: "₹15 Lacs Portfolio"
+      text: "Been associated for over 5 years now. The experience has been smooth and transparent — from account setup to regular reviews, everything is handled personally and efficiently.",
+      investment: "₹15 Lacs Portfolio",
     },
     {
-      name: "Meera Jain",
-      location: "Narnaul",
-      rating: 5,
-      text: "The insurance and mutual fund advice provided by Perfect Investment Hub is comprehensive. They helped me plan for my daughter's education and our retirement goals.",
-      investment: "Multi-goal Planner"
-    }
+      name: "Sunita Mehta",
+      location: "Bhiwani",
+      text: "I began SIPs about two years ago and I’m quite happy with the results. The explanations are always simple, and I get regular updates without having to follow up.",
+      investment: "₹20,000 Monthly SIP",
+    },
+    {
+      name: "Deepak Sharma",
+      location: "Charkhi Dadri",
+      text: "What I appreciate most is the honest approach — no over-promises, just practical advice that fits your goals. The consistency in communication builds real trust.",
+      investment: "₹10 Lacs Portfolio",
+    },
+    {
+      name: "Anil Verma",
+      location: "Mahendragarh",
+      text: "Working together for nearly three years now. The portfolio is reviewed regularly, and Rajesh always explains market changes in a straightforward way that’s easy to understand.",
+      investment: "₹9 Lacs Portfolio",
+    },
   ];
 
   return (
@@ -72,7 +66,7 @@ const TestimonialsSection = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">170+</div>
+            <div className="text-3xl font-bold text-primary mb-2">500+</div>
             <div className="text-sm text-muted-foreground">Happy Clients</div>
           </div>
           <div className="text-center">

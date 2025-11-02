@@ -48,7 +48,7 @@ const Footer = () => {
 
             <p className="text-primary-foreground/80 text-sm">
               Your trusted partner in wealth creation with over 18+ years of
-              market experience. Serving 170+ clients with transparent and
+              market experience. Serving 500+ clients with transparent and
               profitable investment solutions.
             </p>
 

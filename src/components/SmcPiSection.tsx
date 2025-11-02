@@ -126,7 +126,7 @@ const SmcPiSection = () => {
                 <div>
                   <h3 className="text-2xl font-bold mb-2">Start Your SMC PI Journey</h3>
                   <p className="text-secondary-foreground/80 text-sm">
-                    Join hundreds of investors who trust SMC PI for their wealth creation goals
+                    Join hundreds of investors who trust SMC PI for their wealth creation goals.
                   </p>
                 </div>
 
@@ -141,19 +141,12 @@ const SmcPiSection = () => {
                   </div>
                 </div>
 
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="w-full border-primary text-primary hover:bg-primary/10 hover:text-primary"
-                  onClick={() =>
-                    window.open(
-                      "https://www.smctradeonline.com/product/investment-advisory-portfolios",
-                      "_blank"
-                    )
-                  }
-                >
-                  Get Started with SMC PI
-                </Button>
+                {/* Replaced Button with extra explanation */}
+                <p className="text-sm text-secondary-foreground/80 leading-relaxed">
+                  With SMC PI, you gain a professionally managed portfolio tailored to your goals. 
+                  Every investment decision is guided by expert research and executed only with your consent, 
+                  ensuring your funds are always aligned with your comfort and expectations.
+                </p>
               </div>
             </div>
 
@@ -186,7 +179,8 @@ const SmcPiSection = () => {
             </h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
               Let our experts handle your investments while you focus on your business and life.
-              Start with SMC PI today and see the difference professional management makes.
+              SMC PI provides personalized management, transparency, and consistency — everything 
+              you need for long-term financial growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -195,13 +189,6 @@ const SmcPiSection = () => {
                 onClick={() => scrollToSection("contact")}
               >
                 Schedule SMC PI Consultation
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                onClick={() => window.open("https://www.smctradeonline.com/", "_blank")}
-              >
-                Visit SMC Global
               </Button>
             </div>
           </div>

@@ -37,7 +37,8 @@ const HeroSection = () => {
               </div>
 
               <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                Your trusted financial partner for wealth creation through expert
+                Your trusted financial partner for wealth creation through
+                expert
                 <span className="font-semibold text-foreground">
                   {" "}
                   stock market guidance{" "}
@@ -92,9 +93,11 @@ const HeroSection = () => {
               </div>
               <div>
                 <div className="text-2xl md:text-3xl font-bold text-primary">
-                  170+
+                  500+
                 </div>
-                <div className="text-sm text-muted-foreground">Happy Clients</div>
+                <div className="text-sm text-muted-foreground">
+                  Happy Clients
+                </div>
               </div>
               <div>
                 <div className="text-2xl md:text-3xl font-bold text-primary">
@@ -109,7 +112,13 @@ const HeroSection = () => {
               <Button
                 variant="hero"
                 size="lg"
-                onClick={() => scrollToSection("contact")}
+                onClick={() =>
+                  window.open(
+                    "https://bitlink.smcindiaonline.org/esp5wwb",
+                    "_blank",
+                    "noopener,noreferrer"
+                  )
+                }
                 className="text-lg px-8 py-6"
               >
                 Open Demat Account

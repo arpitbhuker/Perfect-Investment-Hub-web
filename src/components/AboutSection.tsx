@@ -12,7 +12,7 @@ const AboutSection = () => {
 
   const achievements = [
     "18+ years of market experience",
-    "170+ satisfied clients and growing",
+    "500+ satisfied clients and growing",
     "SMC Global authorized partner",
     "B.Com graduate with financial expertise",
     "Comprehensive investment services",
@@ -63,7 +63,7 @@ const AboutSection = () => {
                 </p>
 
                 <p>
-                  As the founder of Perfect Investment Hub, he has guided 170+
+                  As the founder of Perfect Investment Hub, he has guided 500+
                   investors across India toward smarter, more confident financial
                   decisions. His expertise spans equity trading, mutual funds,
                   IPOs, insurance, and portfolio management, making him a trusted
