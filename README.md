@@ -2,55 +2,109 @@
 
 ## Project info
 
-**URL**: https://perfect-investment-hub.lovable.app/
-## How can I edit this code?
+# 🌐 Perfect Investment Hub
 
-There are several ways of editing your application.
+A modern and responsive website for **Perfect Investment Hub**, built using **React**, **Vite**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.  
+The website represents the professional services of **Rajesh Bhuker**, a trusted stock market broker and SMC Global partner based in **Charkhi Dadri, Haryana (India)**.
 
+---
 
-**Use your preferred IDE**
+## 🚀 Live Website
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**URL:** [https://perfect-investment-hub.vercel.app](https://perfect-investment-hub.vercel.app)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📖 About the Project
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Perfect Investment Hub is a financial service platform that helps clients with:
+- 📈 **Equity & Commodity Trading**
+- 💰 **Mutual Funds & SIP Planning**
+- 🏦 **Demat Account Opening**
+- 🧾 **IPO & Investment Portfolio Management**
+- 🛡️ **Insurance & Financial Advisory**
+
+The website highlights expertise, testimonials, and contact information for easy investor engagement.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| **React + TypeScript** | Frontend development |
+| **Vite** | Fast build tool and dev environment |
+| **Tailwind CSS** | Utility-first CSS styling |
+| **shadcn/ui** | Modern and accessible UI components |
+| **Lucide React Icons** | Clean icon library |
+| **Framer Motion** | Smooth animations and transitions |
+
+---
+
+## ⚙️ Getting Started (Local Setup)
+
+### 1️⃣ Clone the Repository
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+cd perfect-investment-hub
+2️⃣ Install Dependencies
+bash
+Copy code
+npm install
+3️⃣ Run the Development Server
+bash
+Copy code
 npm run dev
+The app will start on [http://localhost:5173.](https://hj6p43g2-8080.inc1.devtunnels.ms/)
+``` 
+
+🧩 Project Structure
+graphql
+Copy code
+├── src/ # Main app source
+  ├── assets/ # Images and media
+  ├── components/ # Reusable UI sections (Hero, Footer, etc.)
+  ├── hooks/ # Custom React hooks (use-mobile, use-toast)
+  ├── lib/ # Helper utilities (utils.ts)
+  ├── pages/ # Page routes (index.tsx, not-found.tsx)
+  ├── App.tsx # Main app component
+  ├── main.tsx # React DOM entry point
+  └── index.css # Global Tailwind styles
+  
+📡 Deployment
+The site is hosted on Vercel, ensuring high performance, automatic HTTPS, and global CDN delivery.
+
+Production URL: https://perfect-investment-hub.vercel.app
+
+To redeploy:
+
+```bash
+Copy code
+npm run build
+Then push to your GitHub main branch — Vercel automatically redeploys.
 ```
 
-**Edit a file directly in GitHub**
+🔍 SEO & Integrations
+Integrated with Google Search Console for indexing.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Optimized metadata and LocalBusiness Schema.org for local SEO.
 
-**Use GitHub Codespaces**
+Connected with Google Analytics 4 (via GTM) for performance tracking.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+👤 Author
+Arpit
+📧 arpitkumarbhuker@gmail.com
+📞 +91-8168759378
 
-## What technologies are used for this project?
+🧠 License
+© 2025 Perfect Investment Hub.
+All rights reserved. Unauthorized use or reproduction is prohibited.
 
-This project is built with:
+💡 Note
+If you plan to extend this project:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Add a /public/Logo.png for the favicon.
 
+Keep meta and schema tags in index.html updated for SEO.
+
+Connect your domain via Vercel for professional branding.
