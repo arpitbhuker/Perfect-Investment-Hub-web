@@ -1,4 +1,4 @@
-# Welcome to your my project
+# Welcome to my project
 
 ## 🌐 Perfect Investment Hub
 
@@ -8,8 +8,6 @@ The website represents the professional services of **Rajesh Bhuker**, a trusted
 ---
 
 ## 🚀 Live Website
-
-**URL:** [https://perfect-investment-hub.vercel.app](https://perfect-investment-hub.vercel.app)
 
 <p align="left">
   <a href="https://perfect-investment-hub.vercel.app" target="_blank">
@@ -60,10 +58,11 @@ npm install
 ```bash
 npm run dev
 ```
-The app will start on [http://localhost:5173.](https://hj6p43g2-8080.inc1.devtunnels.ms/)
 
-🧩 Project Structure
-graphql
+---
+
+## 🧩 Project Structure
+```graphql
 ```bash
 ├── src/ # Main app source
   ├── assets/ # Images and media
@@ -75,7 +74,10 @@ graphql
   ├── main.tsx # React DOM entry point
   └── index.css # Global Tailwind styles
   ```
-📡 Deployment
+
+---
+
+## 📡 Deployment
 The site is hosted on Vercel, ensuring high performance, automatic HTTPS, and global CDN delivery.
 
 Production URL: https://perfect-investment-hub.vercel.app
@@ -87,23 +89,31 @@ npm run build
 ```
 Then push to your GitHub main branch — Vercel automatically redeploys.
 
-🔍 SEO & Integrations
+---
+
+## 🔍 SEO & Integrations
 - Integrated with Google Search Console for indexing.
 
 - Optimized metadata and LocalBusiness Schema.org for local SEO.
 
 - Connected with Google Analytics 4 (via GTM) for performance tracking.
 
-##👤 Author
+---
+
+## 👤 Author
 Arpit
 - 📧 arpitkumarbhuker@gmail.com
 - 📞 +91-8168759378
 
-##🧠 License
+----
+
+## 🧠 License
 - © 2025 Perfect Investment Hub.
 - All rights reserved. Unauthorized use or reproduction is prohibited.
 
-##💡 Note
+---
+
+## 💡 Note
 If you plan to extend this project:
 
 - Add a /public/Logo.png for the favicon.
